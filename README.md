@@ -1,75 +1,104 @@
 ![Discover Jordan Banner](images/banner.png)
-# 🇯🇴 Discover Jordan — Web Design Course Project
 
-**Discover Jordan** is an interactive, modern tourism website developed to promote tourism in the Hashemite Kingdom of Jordan. It provides comprehensive information on religious, cultural, and therapeutic tourism destinations while highlighting the country's rich historical heritage, natural beauty, and hospitality.
+# 🇯🇴 Discover Jordan — Interactive Tourism Web Platform
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Platform](https://img.shields.io/badge/Platform-Web_Responsive-success?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-Web_Design-blueviolet?style=for-the-badge)
+
+An interactive, modern, and fully responsive web platform built to showcase and promote tourism in the Hashemite Kingdom of Jordan. Designed and developed as a term project for the **Web Design** course at **Amman Arab University (AAU)**.
 
 ---
 
-## 🌐 Live Demo & Repository
+## 🌐 Live Demo & Source Code
 * 🔗 **Live Website**: [Discover Jordan Live Demo](https://jordan-project.netlify.app/)
 * 📁 **GitHub Repository**: [Discover Jordan Source Code](https://github.com/MohammedAbuNaim/Discover-Jordan)
 
 ---
 
-## 👥 Project Team
+## 👥 Project Team & Responsibilities
 
-| Student Name | Role |
+| Student Name | Academic Role & Key Contributions |
 | :--- | :--- |
-| **Mohammad Tareq Mohammad Abu na'im** | **Team Leader & Core Developer** |
-| **Asma Omar Ahmad Al-Fara'neh** | Team Member |
-| **Nour Abdul Fattah Abdullah Alyan** | Team Member |
+| **Mohammad Tareq Mohammad Abu na'im** | **Team Leader, Core Web Developer & Data Collector** — Frontend Architecture, UI/UX Design, Base Web Structure & Content Gathering |
+| **Nour Abdul Fattah Abdullah Alyan** | **Team Member & Developer** — JavaScript Logic, Interactivity, Layout Responsiveness & Content Formatting |
+| **Asma Omar Ahmad Al-Fara'neh** | **Team Member & UI Specialist** — UI/UX Testing, Asset & Image Optimization, Layout Styling & Visual Selection |
 
 ---
 
 ## 🎓 Academic Supervision
-* **Course Instructor**: Dr. We'am Adel Mahmoud Telfah
-* **Course**: Web Design Course
-* **Institution**: Amman Arab University (AAU) — Faculty of Information Technology
+
+* **Course Instructor**: Dr. We'am Adel Mahmoud Talafha (Lecturer)
+* **Academic & Research Profiles**:
+  * 🔬 [Google Scholar Profile](https://scholar.google.com/citations?user=O4kal4kAAAAJ&hl=ar&oi=ao)
+  * 📑 [Scopus Author ID](https://www.scopus.com/results/authorNamesList.uri?name=name&st1=Talafha&st2=We%E2%80%99am&origin=searchauthorlookup)
+* **Institution**: Amman Arab University (AAU) — Faculty of Computer Sciences & Informatics (Department of Computer Science / Cybersecurity)
 
 ---
 
 ## 🎯 Objectives of the Project
-* Promote Jordan's tourism through a unified digital platform.
-* Provide visitors with organized, reliable tourism information.
-* Present historical, cultural, religious, and therapeutic attractions in an engaging format.
-* Apply modern web development concepts and responsive design principles.
-* Improve user experience through interactive navigation features.
+- 🏛️ **Promote Jordanian Tourism:** Present historical, cultural, religious, and therapeutic destinations in a unified digital portal.
+- 📱 **Responsive UI/UX:** Deliver an optimal viewing experience across mobile, tablet, and desktop devices.
+- ⚡ **Dynamic Interaction:** Implement modern JavaScript functions for smooth category filtering and navigation.
+- 🌍 **Cultural Heritage:** Showcase Jordan’s rich archaeological wonders with interactive location routes.
 
 ---
 
-## 🛠️ Technologies Used
-* **HTML5**: Built the semantic structure and primary content of the website.
-* **CSS3 & Tailwind CSS**: Styled a modern, responsive, and visually appealing user interface.
-* **JavaScript (ES6+)**: Implemented dynamic functionality, DOM manipulation, and interactive features.
-* **Font Awesome**: Integrated professional icons and visual UI enhancements.
-* **Google Fonts**: Enhanced typography and customized Arabic language presentation.
+## 🛠️ Technologies & Tools Used
+- **HTML5:** Semantic structure and accessible web content.
+- **CSS3 & Tailwind CSS:** Modern styling, custom utility classes, and responsive layouts.
+- **JavaScript (ES6+):** Dynamic DOM manipulation, state switching, and interactive events.
+- **Font Awesome:** High-quality UI icons and visual elements.
+- **Google Fonts:** Custom typography tailored for multilingual and Arabic presentation.
 
 ---
 
 ## 📌 Main Website Sections
-- 🏠 **Home Page**: Welcoming hero section & introduction.
-- 🏛️ **About Jordan & History Timeline**: Historical context and milestones.
-- 🕌 **Religious Tourism**: Detailed guide to holy sites.
-- 🎨 **Cultural Tourism**: Highlighting Jordan's heritage and traditions.
-- 🌊 **Therapeutic Tourism**: Dead Sea, Hot Springs, and wellness locations.
-- 📞 **Contact Us Section**: Interactive form for feedback & inquiries.
+- 🏠 **Hero & Home Section:** Welcoming header with dynamic call-to-action buttons.
+- 🏛️ **Historical Timeline:** Interactive chronological milestones of Jordan's history.
+- 🕌 **Religious Tourism:** Guided exploration of holy sites across the Kingdom.
+- 🎨 **Cultural Tourism:** Visualizing Jordanian traditions, crafts, and heritage.
+- 🌊 **Therapeutic Tourism:** In-depth guide to Dead Sea and Ma'in Hot Springs wellness locations.
+- 📞 **Interactive Contact Form:** Dedicated section for user feedback and inquiries.
 
 ---
 
-## ⚡ JavaScript Functions & Logic
-1. `showCategory(n)`: Dynamically displays the selected tourism category while hiding others (Religious, Cultural, Therapeutic).
-2. `backToWhy()`: Returns the user to the "Why Jordan?" section and restores the main categories view.
-3. **Smooth Scroll Navigation**: Handles smooth CSS/JS transitions between sections for optimal UX.
-4. **Dynamic Show/Hide Operations**: Manages visibility for sections like the historical timeline using native DOM manipulation.
+## ⚡ System Architecture & JS Logic Flow
 
+```text
+┌──────────────────────────────────────────────────────────┐
+│                   Website Initialization                 │
+│        Renders Main Hero Section & Category Cards       │
+└────────────────────────────┬─────────────────────────────┘
+                             │
+                             ▼
+┌──────────────────────────────────────────────────────────┐
+│                    showCategory(n)                       │
+│    Dynamically switches visible tourism categories      │
+│      (Hides/Shows Religious, Cultural, Therapeutic)      │
+└────────────────────────────┬─────────────────────────────┘
+                             │
+                             ▼
+┌──────────────────────────────────────────────────────────┐
+│                     backToWhy()                          │
+│     Restores primary categories view & resets scroll     │
+└────────────────────────────┬─────────────────────────────┘
+                             │
+                             ▼
+┌──────────────────────────────────────────────────────────┐
+│             Smooth Scroll & DOM Interactivity            │
+│    Handles section transitions, modal toggles & maps     │
+└──────────────────────────────────────────────────────────┘
+```
 ---
 
-## ✨ Key Features
-- 📱 Fully Responsive Design (Desktop, Tablet, Mobile).
-- 🔄 Interactive Cards with smooth CSS hover effects.
-- 🌐 Native Arabic RTL (Right-to-Left) interface support.
-- 📍 Embedded Google Maps location routes.
-- ⚡ Fast performance with clean dynamic UI operations.
+## ⚖️ License & Copyright
 
----
-*Academic Project prepared for the Web Design Course at Amman Arab University under the supervision of Dr. We'am Adel Mahmoud Telfah.*
+Copyright © 2026 Discover Jordan Project Team. All rights reserved.
+
+Developed as part of the **Web Design** course at **Amman Arab University (AAU)** under the academic supervision of **Dr. We'am Adel Mahmoud Talafha**.
+
+Licensed under the [MIT License](LICENSE).
