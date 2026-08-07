@@ -25,7 +25,7 @@ An interactive, modern, and fully responsive web platform built to showcase and 
 | :--- | :--- |
 | **Mohammad Tareq Mohammad Abu na'im** | **Team Leader, Core Web Developer & Data Collector** — Frontend Architecture, UI/UX Design, Base Web Structure & Content Gathering |
 | **Nour Abdul Fattah Abdullah Alyan** | **Team Member & Developer** — JavaScript Logic, Interactivity, Layout Responsiveness & Content Formatting |
-| **Asma Omar Ahmad Al-Fara'neh** | **Team Member & UI Specialist** — UI/UX Testing, Asset & Image Optimization, Layout Styling & Visual Selection |
+| **Asma Omar Ahmad Al-Fara'neh** | **Team Member & Developer ** — UI/UX Testing, Asset & Image Optimization, Layout Styling & Visual Selection |
 
 ---
 
